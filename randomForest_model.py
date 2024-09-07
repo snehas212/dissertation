@@ -40,8 +40,8 @@ def save_model(model, filename):
     joblib.dump(model, filename)
 
 # Load datasets
-train = '/home/vaithees/PhD-Projects/Sentiment Analysis/Datasets/drugs_review/drugsComTrain_raw.tsv'
-test = '/home/vaithees/PhD-Projects/Sentiment Analysis/Datasets/drugs_review/drugsComTest_raw.tsv'
+train = '/home/sneha/Sentiment Analysis/Datasets/drugs_review/drugsComTrain_raw.tsv'
+test = '/home/sneha/Sentiment Analysis/Datasets/drugs_review/drugsComTest_raw.tsv'
 
 # Main function to load data, preprocess, train, evaluate and save the model
 def main():
