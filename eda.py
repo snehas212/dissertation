@@ -5,8 +5,8 @@ import seaborn as sns
 from wordcloud import WordCloud
 
 # Load the datasets
-train = pd.read_csv('/home/vaithees/PhD-Projects/Sentiment Analysis/Datasets/drugs_review/drugsComTrain_raw.tsv', delimiter='\t')
-test = pd.read_csv('/home/vaithees/PhD-Projects/Sentiment Analysis/Datasets/drugs_review/drugsComTest_raw.tsv', delimiter='\t')
+train = pd.read_csv('/home/sneha/Sentiment Analysis/Datasets/drugs_review/drugsComTrain_raw.tsv', delimiter='\t')
+test = pd.read_csv('/home/sneha/Sentiment Analysis/Datasets/drugs_review/drugsComTest_raw.tsv', delimiter='\t')
 
 # Combine the training and test datasets for a complete EDA
 data = pd.concat([train, test], ignore_index=True)
