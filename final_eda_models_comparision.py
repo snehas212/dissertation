@@ -17,8 +17,8 @@ import joblib
 logging.basicConfig(filename='final_model_comparison.log', level=logging.INFO)
 
 # Load datasets
-train = pd.read_csv('/home/vaithees/PhD-Projects/Sentiment Analysis/Datasets/drugs_review/drugsComTrain_raw.tsv', delimiter='\t')
-test = pd.read_csv('/home/vaithees/PhD-Projects/Sentiment Analysis/Datasets/drugs_review/drugsComTest_raw.tsv', delimiter='\t')
+train = pd.read_csv('/home/sneha/Sentiment Analysis/Datasets/drugs_review/drugsComTrain_raw.tsv', delimiter='\t')
+test = pd.read_csv('/home/sneha/Sentiment Analysis/Datasets/drugs_review/drugsComTest_raw.tsv', delimiter='\t')
 
 print("Train dataset shape: ", train.shape)
 print("Test dataset shape: ", test.shape)
