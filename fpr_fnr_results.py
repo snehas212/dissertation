@@ -20,8 +20,8 @@ if not os.path.exists('results'):
 logging.basicConfig(filename='results/FPR_FNR_final_model_comparison.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
 # Load datasets
-train = pd.read_csv('/home/vaithees/PhD-Projects/Sentiment Analysis/Datasets/drugs_review/drugsComTrain_raw.tsv', delimiter='\t')
-test = pd.read_csv('/home/vaithees/PhD-Projects/Sentiment Analysis/Datasets/drugs_review/drugsComTest_raw.tsv', delimiter='\t')
+train = pd.read_csv('/home/sneha/Sentiment Analysis/Datasets/drugs_review/drugsComTrain_raw.tsv', delimiter='\t')
+test = pd.read_csv('/home/sneha/Sentiment Analysis/Datasets/drugs_review/drugsComTest_raw.tsv', delimiter='\t')
 
 # Preprocessing
 tfidf = TfidfVectorizer(stop_words='english', max_features=1000)
